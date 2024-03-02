@@ -1,0 +1,14 @@
+{
+  "language": "English",
+  "@language": {
+    "description": "The current language of the application."
+  },
+  "memo": "Memo",
+  "@memo": {
+    "description": "User's memo."
+  },
+  "systemLanguage": "System language",
+  "@systemLanguage": {
+    "description": "indicates the system language."
+  }
+}
