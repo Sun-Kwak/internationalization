@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+final systemLocale = WidgetsBinding.instance!.window.locale;
 
 class L10n {
   static final all = <Locale>[
@@ -9,4 +10,22 @@ class L10n {
     const Locale('ja', 'JP'),
     const Locale('ru', 'RU'),
   ];
+
+  static Locale findLocaleByLanguageCode(String languageCode) {
+    for (var locale in all) {
+      if (locale.languageCode == languageCode) {
+        return locale;
+      }
+    }
+    return systemLocale;
+  }
+
+  static Locale findLocaleByCountryCode(String countryCode) {
+    for (var locale in all) {
+      if (locale.countryCode == countryCode) {
+        return locale;
+      }
+    }
+    return systemLocale;
+  }
 }
