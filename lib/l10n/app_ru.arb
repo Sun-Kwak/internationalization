@@ -1,5 +1,8 @@
 {
   "language": "Русский",
-  "memo": "Заметка",
-  "systemLanguage": "Системный язык"
+  "input": "Ввод",
+  "memoHint": "Введите заметку",
+  "systemLanguage": "Системный язык",
+  "saveBtn": "Сохранить",
+  "translate": "Перевести"
 }

@@ -1,5 +1,8 @@
 {
   "language": "中文",
-  "memo": "备忘录",
-  "systemLanguage": "系统语言"
+  "input": "输入",
+  "memoHint": "请输入备忘录",
+  "systemLanguage": "系统语言",
+  "saveBtn": "保存",
+  "translate": "翻译"
 }

@@ -1,5 +1,8 @@
 {
   "language": "한국어",
-  "memo": "메모",
-  "systemLanguage": "시스템 언어"
+  "input": "입력",
+  "memoHint": "메모를 입력해주세요",
+  "systemLanguage": "시스템 언어",
+  "saveBtn" : "저장",
+  "translate" : "번역"
 }

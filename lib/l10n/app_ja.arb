@@ -1,5 +1,8 @@
 {
   "language": "日本語",
-  "memo": "メモ",
-  "systemLanguage": "システム言語"
+  "input": "入力",
+  "memoHint": "メモを入力してください",
+  "systemLanguage": "システム言語",
+  "saveBtn": "保存",
+  "translate": "翻訳"
 }

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-final systemLocale = WidgetsBinding.instance!.window.locale;
+final systemLocale = WidgetsBinding.instance!.platformDispatcher.locale;
 
 class L10n {
   static final all = <Locale>[

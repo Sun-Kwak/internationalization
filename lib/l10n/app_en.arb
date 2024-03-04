@@ -3,12 +3,9 @@
   "@language": {
     "description": "The current language of the application."
   },
-  "memo": "Memo",
-  "@memo": {
-    "description": "User's memo."
-  },
+  "input": "Input",
+  "memoHint": "Enter your text here...",
   "systemLanguage": "System language",
-  "@systemLanguage": {
-    "description": "indicates the system language."
-  }
+  "saveBtn" : "Save",
+  "translate" : "Translate"
 }
